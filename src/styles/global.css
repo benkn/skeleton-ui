@@ -1,0 +1,11 @@
+.hidden {
+    display: none !important;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+body {
+    font-size: 16px !important;
+}

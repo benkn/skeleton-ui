@@ -1,5 +1,7 @@
 # Skeleton UI
 
+[![build status][build-image]][build-url]
+
 Skeleton for a Typescript + React project including Jest for testing.
 
 ## Getting Started
@@ -42,3 +44,10 @@ Runs a CI process -- install, build, test.
 - [Adsense](https://www.google.com/adsense/new/u/0/pub-1706899473093396/home)
 - [Skeleton Theme](http://getskeleton.com/#intro)
 - [Tutorial on AWS Setup](https://jaykannaiyan.com/how-to-deploy-node-app-docker-aws)
+
+## License
+
+MIT
+
+[build-image]: https://img.shields.io/github/actions/workflow/status/benkn/skeleton-ui/ci.yml?branch=main
+[build-url]: https://github.com/benkn/skeleton-ui/actions?query=workflow%3Aci

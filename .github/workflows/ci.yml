@@ -1,4 +1,4 @@
-name: Skeleton Pipeline
+name: CI
 
 on:
   push:

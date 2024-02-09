@@ -1,7 +1,6 @@
 {
   "name": "skeleton-ui",
   "version": "0.1.0",
-  "description": "Skeleton frame for UIs",
   "author": "Ben Knear",
   "license": "MIT",
   "private": true,

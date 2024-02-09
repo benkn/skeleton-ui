@@ -45,3 +45,11 @@ clean: ## remove all caches, node_modules, etc
 
 test: ## runs unit tests
 	@npm t
+
+rebrand: ## renames specific resources to a new name passed with PACKAGE and TITLE variables
+	sed -i '' 's/skeleton-ui/$(PACKAGE)/g' ./package.json
+	sed -i '' 's/Skeleton UI/$(TITLE)/g' README.md
+	sed -i '' 's/Skeleton UI/$(TITLE)/g' src/index.ejs
+	sed -i '' 's/Skeleton UI/$(TITLE)/g' src/components/header/Header.tsx
+	sed -i '' 's/Skeleton UI/$(TITLE)/g' src/components/header/__tests__/Header.test.tsx
+	@echo "$(GREEN)Done!$(WHITE) Feel free to remove the rebrand command from the Makefile$(NO_COLOR)"

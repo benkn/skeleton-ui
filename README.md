@@ -36,6 +36,14 @@ Your app is ready to be deployed!
 
 Runs a CI process -- install, build, test.
 
+### `make rebrand`
+
+When forking this project, this command makes it easy to replace "Skeleton UI" references with new values, given as `PACKAGE` and `TITLE`:
+
+```sh
+make rebrand PACKAGE=new-app TITLE="New App"
+```
+
 ## Important Links
 
 - [AWS Host](http://clearthehaze.com.s3-website-us-east-1.amazonaws.com)
